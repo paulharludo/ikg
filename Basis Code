@@ -1,0 +1,32 @@
+__author__ = 'JG'
+import pygame,sys
+from pygame.locals import *
+
+SCHWARZ = (0, 0, 0)
+WEISS = (255, 255, 255)
+FPS = 30
+
+pygame.init()
+
+
+FPSUhr = pygame.time.Clock()
+spieler = pygame.image.load("humunculus.jpg")
+spielerX = 0
+spielerY = 0
+
+fenster = pygame.display.set_mode((800, 600), 0, 32)
+pygame.display.set_caption("IKG-Simulator")
+
+
+
+while True:
+    fenster.fill(SCHWARZ)
+
+    fenster.blit(spieler,(spielerX,spielerY))
+
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+    pygame.display.update()
+    FPSUhr.tick(FPS)
