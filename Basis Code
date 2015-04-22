@@ -1,32 +1,34 @@
 __author__ = 'JG'
-import pygame,sys
+import pygame,sys                                       #die imports von pygame und syos
 from pygame.locals import *
 
-SCHWARZ = (0, 0, 0)
+SCHWARZ = (0, 0, 0)                                     #bestimmung fester Variablen (erleichtert das debugging und soweiter)
 WEISS = (255, 255, 255)
 FPS = 30
 
-pygame.init()
+pygame.init()                                           #initialisierung von pygame (damit man die Funktionen nutzen kann)
 
 
-FPSUhr = pygame.time.Clock()
-spieler = pygame.image.load("humunculus.jpg")
-spielerX = 0
+FPSUhr = pygame.time.Clock()                            #initialisirung der "FPSUhr"
+spieler = pygame.image.load("humunculus.jpg")           #laden einer bliddatei
+
+spielerX = 0                                            #bestimmung weiterer Variablen
 spielerY = 0
 
-fenster = pygame.display.set_mode((800, 600), 0, 32)
-pygame.display.set_caption("IKG-Simulator")
+fenster = pygame.display.set_mode((800, 600), 0, 32)    #initialisierung des fensters
+pygame.display.set_caption("IKG-Simulator")             #Fenstertitel setzen
 
 
 
-while True:
+while True:                                             #beginn des Game loops
     fenster.fill(SCHWARZ)
 
-    fenster.blit(spieler,(spielerX,spielerY))
+    fenster.blit(spieler,(spielerX,spielerY))           #darstellung des Spielers
 
-    for event in pygame.event.get():
+    for event in pygame.event.get():                    #eventhandling
         if event.type == QUIT:
-            pygame.quit()
-            sys.exit()
-    pygame.display.update()
-    FPSUhr.tick(FPS)
+            pygame.quit()                               #bei quitevent beende pygame (gegenteil von .init)
+            sys.exit()                                  #beende python interpreter
+            
+    pygame.display.update()                             #rendern des bildschirminhaltes
+    FPSUhr.tick(FPS)                                    #einlegen einer kurzen pause fals nach rechenzeit noch zeit bis zum nächsten frame
