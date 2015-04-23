@@ -12,8 +12,11 @@ http://lucumr.pocoo.org/2014/1/27/python-on-wheels/ (wenn ihr keinen Plan habt w
 wenn ihr noch hilfreiche links hab gerne hier reinposten
 
 Sonst würd ich vorschlagen das wir noch ne Dropbox aufmachen für Bilder und Musik die später noch kommt (kümmere mich nacher drum)
-
-
 #Hier der Link zu LMMS:
 https://lmms.io
 LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.
+
+# !!! Achtung wichtiger Hinweis!!!
+wenn ihr Sound oder Bild Dateien erstellt speichert diese immmer in .wav (für sound dateien) oder .gif(für Bilder ab)
+das hat beim sound damit zu tun das .mp3 Dateien patente drauf haben die von Python nicht genutzt werden können
+und bei Bildern das .jpg dateien die Hintergrundfarbe verändern und somit das colorcoding (um eine Transparenz einzufügen) kaputt macht
