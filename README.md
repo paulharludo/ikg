@@ -14,3 +14,6 @@ wenn ihr noch hilfreiche links hab gerne hier reinposten
 Sonst würd ich vorschlagen das wir noch ne Dropbox aufmachen für Bilder und Musik die später noch kommt (kümmere mich nacher drum)
 
 
+#Hier der Link zu LMMS:
+https://lmms.io
+LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.
