@@ -11,7 +11,6 @@ https://www.jetbrains.com/pycharm/download/ (PyCharm auch empfohlen ^^)
 
 http://lucumr.pocoo.org/2014/1/27/python-on-wheels/ (wenn ihr keinen Plan habt wie man die .whl Datei installiert ^^)
 
-wenn ihr noch hilfreiche links hab gerne hier reinposten
 https://lmms.io (LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.)
 
 # !!! Achtung wichtiger Hinweis!!!
