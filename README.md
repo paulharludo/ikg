@@ -1,3 +1,5 @@
+#Aktueller Stand
+https://www.dropbox.com/home/IKG-Simulator/Stand_24_04_13_38
 
 #So hier mal ein paar links:
 
@@ -10,11 +12,7 @@ https://www.jetbrains.com/pycharm/download/ (PyCharm auch empfohlen ^^)
 http://lucumr.pocoo.org/2014/1/27/python-on-wheels/ (wenn ihr keinen Plan habt wie man die .whl Datei installiert ^^)
 
 wenn ihr noch hilfreiche links hab gerne hier reinposten
-
-Sonst würd ich vorschlagen das wir noch ne Dropbox aufmachen für Bilder und Musik die später noch kommt (kümmere mich nacher drum)
-#Hier der Link zu LMMS:
-https://lmms.io
-LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.
+https://lmms.io (LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.)
 
 # !!! Achtung wichtiger Hinweis!!!
 wenn ihr Sound oder Bild Dateien erstellt speichert diese immmer in .wav (für sound dateien) oder .gif(für Bilder ab)
