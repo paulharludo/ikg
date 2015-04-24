@@ -3,6 +3,8 @@ https://www.dropbox.com/home/IKG-Simulator/Stand_24_04_13_38
 
 #So hier mal ein paar links:
 
+http://programarcadegames.com/index.php?chapter=foreword&lang=de#section_0 (für die Anfänger unter uns)
+
 https://inventwithpython.com/pygame/chapters/ (die PYgame pdf (empfohlen von Jakob!))
 
 http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame (die WHL für Python 3.4 (strengstens empfohlen von Jakob!!!!)
