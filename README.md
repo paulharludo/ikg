@@ -18,6 +18,8 @@ http://lucumr.pocoo.org/2014/1/27/python-on-wheels/ (wenn ihr keinen Plan habt w
 
 https://lmms.io (LMMS steht zwar für LinuxMultiMediaStudio, läuft aber genauso gut unter Windows. Freeware.)
 
+http://pygame.org/ftp/pygame-1.9.2a0.win32-py3.2.msi (pygame für py 3.2)
+
 # !!! Achtung wichtiger Hinweis!!!
 wenn ihr Sound oder Bild Dateien erstellt speichert diese immmer in .wav (für sound dateien) oder .gif(für Bilder ab)
 das hat beim sound damit zu tun das .mp3 Dateien patente drauf haben die von Python nicht genutzt werden können
